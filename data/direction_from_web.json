@@ -1,0 +1,198 @@
+[
+  {
+    "header": "Automation",
+    "content": " CI/CD GitLab Duo Agent Platform Source Code Management Automated Software Delivery"
+  },
+  {
+    "header": "Security",
+    "content": " Application Security Testing Software Supply Chain Security Software Compliance"
+  },
+  {
+    "header": "Measurement",
+    "content": " Visibility & Measurement Value Stream Management Analytics & Insights"
+  },
+  {
+    "header": "GitLab for",
+    "content": " Enterprise Small Business Public Sector Pricing ResourcesGetting startedInstallQuick start guidesLearnProduct documentationBest practice videosIntegrationsDiscoverCustomer success storiesBlogThe SourceRemoteConnectGitLab ServicesContributeCommunityForumEventsPartnersView all resourcesWhatâs new in GitLabStay updated with our latest features and improvements.Read the latest"
+  },
+  {
+    "header": "Getting started",
+    "content": " Install Quick start guides Learn Product documentation Best practice videos Integrations"
+  },
+  {
+    "header": "Discover",
+    "content": " Customer success stories Blog The Source Remote"
+  },
+  {
+    "header": "Connect",
+    "content": " GitLab Services Contribute Community Forum Events Partners Stay updated with our latest features and improvements. CompanyAboutJobsEventsLeadershipHandbookInvestor relationsTrust CenterAI Transparency CenterNewsletterPress"
+  },
+  {
+    "header": "What's new in GitLab",
+    "content": " Monthly releases, developer resources, and the latest from the GitLab team."
+  },
+  {
+    "header": "Monthly releases",
+    "content": " 19.12026-06-18(recent) 19.02026-05-21 18.11Apr 16, 2026 18.10Mar 19, 2026 18.9Feb 19, 2026 18.8Jan 15, 2026 18.7Dec 18, 2025 18.6Nov 20, 2025 18.5Oct 21, 2025 18.4Sep 23, 2025 18.3Aug 20, 2025 18.2Jul 17, 2025 18.1Jun 24, 2025 18.0May 15, 2025 17.11Apr 17, 2025 17.10Mar 20, 2025 17.9Feb 20, 2025 17.8Jan 16, 2025 17.7Dec 19, 2024"
+  },
+  {
+    "header": "GitLab 19.1: One security view for every scanner, one control plane for every agent",
+    "content": " SARIF scanner results now flow into GitLab vulnerability management alongside native findings, with auto-remediation through GitLab Duo Agent Platform. Admins control which AI models run, which tools agents can call, and where audit events stream."
+  },
+  {
+    "header": "One vulnerability view, from scanner coverage to AI governance",
+    "content": " Now you can bring SARIF scanner results into every security view, cut false positive noise with AI-powered secret detection analysis, and close the governance gap with AI audit event streaming."
+  },
+  {
+    "header": "Third-Party Scanner Integration",
+    "content": " See how GitLab enforces third-party scanners across all of your projects and auto-remediates their findings."
+  },
+  {
+    "header": "AI Catalog updates for governance and operations",
+    "content": " New event-driven triggers, admin controls, flow config validation, and model selection make it easier to control what runs in your environment and trust automation without supervision."
+  },
+  {
+    "header": "AI Event Triggers",
+    "content": " Watch Duo Flows fire automatically on merge request events, pipeline state changes, and schedules, with no manual handoff required."
+  },
+  {
+    "header": "This month's Notable Contributor: Pishel65",
+    "content": " We are excited to recognize Pishel65, a Level 3 contributor with 19 merged MRs and 9 more open since joining in October 2025. Secure"
+  },
+  {
+    "header": "Integrate third-party scanner results with GitLab (GA)",
+    "content": " Any scanner that outputs SARIF now runs under your GitLab policies across every project, so the security tools you already use give you coverage you can prove. AI Secure"
+  },
+  {
+    "header": "Secret false positive detection with GitLab Duo (GA)",
+    "content": " Spend less time triaging secrets that turn out to be false positives. GitLab Duo Agent Platform analyzes critical and high severity findings, scores confidence, and flags false positives so security teams remediate only genuine exposures. Secure Manage"
+  },
+  {
+    "header": "Compliance framework templates (Beta)",
+    "content": " Stand up compliance frameworks faster with 19 pre-built templates covering ISO 27001:2022, SOC 2, FedRAMP, NIST, CIS, TISAX, and more. Secure"
+  },
+  {
+    "header": "Close coverage gaps with the Scanner Enablement Wizard (GA)",
+    "content": " Find missing coverage easily by running the wizard to identify projects that require your attention. You can configure profiles that define which scanner to run. Bulk-apply profiles to projects and sub-groups to cut down on manual checks. AI Manage"
+  },
+  {
+    "header": "New event triggers for flows and external agents",
+    "content": " Automate more of the merge request lifecycle without manual handoffs. Four new triggers let flows and external agents respond when a merge request moves from draft to ready, hits a code conflict, receives approval, or a work item is created. Plus, we've shipped new configuration capabilities to the existing Pipeline Events trigger. AI Manage"
+  },
+  {
+    "header": "Custom and external AI feature controls (GA)",
+    "content": " Control which AI agents and flows are available in your environment. Administrators and top-level group owners can prevent users from creating custom agents or flows and restrict agents from outside the group hierarchy. AI Manage"
+  },
+  {
+    "header": "Custom flows YAML validation (GA)",
+    "content": " Catch configuration errors before they reach production. The AI Catalog validates custom flow YAML at save time, surfacing syntax errors and misconfigured parameters in the UI rather than at runtime. AI Manage"
+  },
+  {
+    "header": "Model selection allowlist (Beta)",
+    "content": " Give teams model choice within guardrails. Configure an allowlist of approved AI models and set an organization-wide default for Agentic Chat so users pick from approved options that fit your teamâs requirements. AI Manage"
+  },
+  {
+    "header": "Tool approval guardrails for GitLab Duo agents",
+    "content": " Control what your AI agents can do, tool by tool. Configure approval policies with three modes (Allow, Ask, or Deny) across Agentic Chat, IDE, and flows, with audit events for every approval decision. Code"
+  },
+  {
+    "header": "Automate assigning Code Owners as reviewers (GA)",
+    "content": " Get the right reviewers on every merge request without manual assignment. When a merge request is created ready or marked ready from draft, GitLab assigns every Code Owner that matches the changed files. Code"
+  },
+  {
+    "header": "Stacked merge requests in the UI (GA)",
+    "content": " Navigate dependent merge requests without losing context. GitLab detects stacked merge requests automatically and shows them in the header, with a stack control to jump between any merge request in the stack. AI"
+  },
+  {
+    "header": "Pattern-based tool approval for Agentic Chat (Beta)",
+    "content": " Approve a tool once and skip repeated prompts for the rest of the session. Choose \"Approve all uses of this tool for session\" to approve invocations whenever arguments match the approved pattern. Available in GitLab UI, Duo CLI, VS Code, and JetBrains IDEs. AI Code"
+  },
+  {
+    "header": "GPT models for Code Review Flow (GA)",
+    "content": " Choose from more models for automated code review. Code Review Flow now supports GPT-5.2 and GPT-5.3 Codex alongside Anthropic Claude, with review quality comparable to the default Claude Sonnet 4.6 Vertex model. Code"
+  },
+  {
+    "header": "Inline blame in the blob viewer (GA)",
+    "content": " Understand who changed what without leaving the file view. Toggle inline blame to see the last author per line, with hover popovers for commit details, prior-change blame, and revision ignore options. Secure Manage"
+  },
+  {
+    "header": "Security Manager role (GA)",
+    "content": " Give security teams the access they need without over-provisioning. The Security Manager role provides vulnerability management, dashboards, policy configuration, and compliance tools without requiring Developer or Maintainer roles. Secure Manage"
+  },
+  {
+    "header": "Scheduled pipeline execution policies (Beta)",
+    "content": " Keep security coverage consistent even when code isn't changing. Enforce custom CI/CD jobs on a daily, weekly, or monthly cadence across projects, independent of commit activity. Secure"
+  },
+  {
+    "header": "Improved secret detection coverage for feature branch pipelines (GA)",
+    "content": " Close a gap where secrets in earlier feature branch commits could go undetected. Secret detection now scans every commit from the branch's divergence point with the default branch to the latest commit. Secure Manage"
+  },
+  {
+    "header": "Stream AI audit events to external destinations (Beta)",
+    "content": " Get real-time visibility into AI activity in your existing security toolchain. Stream AI audit events to external destinations through GitLab's audit event streaming infrastructure. Manage"
+  },
+  {
+    "header": "Custom lifetime for OAuth access tokens (GA)",
+    "content": " Tighten token lifetimes for security-sensitive integrations. Set a custom lifetime (300 to 7,200 seconds) for new OAuth access tokens, including tokens issued to MCP clients. Secure Manage"
+  },
+  {
+    "header": "Git operation audit events for all actor types",
+    "content": " Close a blind spot in Git audit coverage. Audit logging for clone, pull, fetch, and push operations now extends to all actor types, including runners using deploy tokens and SSH certificate users."
+  },
+  {
+    "header": "What's coming",
+    "content": " Planned features across upcoming releases. Plans subject to change."
+  },
+  {
+    "header": "Agentic AI",
+    "content": " From intelligent coding assistants to orchestrated agentic AI across the entire software lifecycle GitLab Orbit (external agents) GAAIManageEpic #21430 GitLab Orbit (external agents) GA AI Manage Duo Developer 2.0AICodeEpic #22091 Duo Developer 2.0 AI Code AI Pipeline BuilderAIVerifyEpic #20443 AI Pipeline Builder AI Verify Duo CLI GAAIManageEpic #602193 Duo CLI GA AI Manage MCP Server for Free Users GAAIManageEpic #602703 MCP Server for Free Users GA AI Manage Duo Agent Platform MemoryAIManageEpic #21378 Duo Agent Platform Memory AI Manage AI Pipeline BuilderAIVerifyEpic #20443 AI Pipeline Builder AI Verify Spec-Driven Development with the Agent Plan workstreamAIPlanEpic #21218 Spec-Driven Development with the Agent Plan workstream AI Plan Composable Flows and Agents in DAPAIManageEpic #21838 Composable Flows and Agents in DAP AI Manage GitLab Duo Slack IntegrationAIManageEpic #22305 GitLab Duo Slack Integration AI Manage Visual Flow EditorAIManageEpic #20431 Visual Flow Editor AI Manage Create Stage Trigger ExpansionAICodeEpic #20654 Create Stage Trigger Expansion AI Code"
+  },
+  {
+    "header": "DevOps",
+    "content": " From fragmented toolchains and manual processes to automated, continuous innovation Maven and npm Virtual Registry GAPackageDeployEpic #15091 Maven and npm Virtual Registry GA Package Deploy Docker Virtual Registry GAPackageDeployEpic #18773 Docker Virtual Registry GA Package Deploy Source Code TemplatesCodeEpic #21356 Source Code Templates Code Native CODEOWNERS reviewer auto-assignmentCodeEpic #20711 Native CODEOWNERS reviewer auto-assignment Code Project-level EpicsPlanEpic #14501 Project-level Epics Plan Organization sign-inManageEpic #21019 Organization sign-in Manage"
+  },
+  {
+    "header": "Security & Compliance",
+    "content": " From reactive scanning to risk-proportional, policy-driven security governance GitLab Secrets Manager GASecureBuildEpic #10723 GitLab Secrets Manager GA Secure Build Fine-grained Personal Access Tokens GAManageEpic #18554 Fine-grained Personal Access Tokens GA Manage Scheduled pipeline execution policies GASecureManageEpic #17875 Scheduled pipeline execution policies GA Secure Manage Auto-remediation with automatic dependency bumping (Beta)SecureEpic #18236 Auto-remediation with automatic dependency bumping (Beta) Secure Agentic Bulk Vulnerability Resolution (Beta)SecureAIEpic #21734 Agentic Bulk Vulnerability Resolution (Beta) Secure AI Vulnerability management across contexts (non-default branch tracking)SecureAnalyzeEpic #18653 Vulnerability management across contexts (non-default branch tracking) Secure Analyze Security policy integration with security attributesSecureManageEpic #18312 Security policy integration with security attributes Secure Manage Custom rules for secret detectionSecureEpic #18327 Custom rules for secret detection Secure SLSA verification and container image signingSecureBuildEpic #19697 SLSA verification and container image signing Secure Build Releases Events Demos Livestreams Be the first to know when new features ship"
+  },
+  {
+    "header": "What's happening at GitLab",
+    "content": " GitLab Transcend Keynote Panel Discussion: The Future of Software Innovation in the Enterprise Stanford SWEPR: Software Engineering Productivity in the AI Era Meet GitLab Orbit, the continuously updated lifecycle context graph How GitLab Orbit works GitLab Orbit demo: 5 agentic AI use cases across the software lifecycle GitLab: Built for the agentic engineering era Introducing GitLab Orbit: Full code and lifecycle context, in one query GitLab Flex: Commit once, reshape your seats and AI spend Agentic coding is only as good as its context Claude Code and GitLab: Three workflows that ship Codex and GitLab: From code fix to production Ericsson Cuts Deployment Time 50% With GitLab to Deliver Faster Value to its OSS/BSS Customers Multinational banking giant Barclays 'supercharges' innovation with GitLab"
+  },
+  {
+    "header": "Be the first to know",
+    "content": " Join the list and be the first to know what's new with GitLab: the latest product updates, episodes of The Developer Show, and GitLab events. All fields required"
+  },
+  {
+    "header": "Footer links",
+    "content": ""
+  },
+  {
+    "header": "Pricing",
+    "content": " View plans Why Premium? Why Ultimate?"
+  },
+  {
+    "header": "Contact Us",
+    "content": " Contact sales Support portal Customer portal Status Terms of use Privacy statement "
+  },
+  {
+    "header": "Product",
+    "content": " DevSecOps platform AI-Assisted Development"
+  },
+  {
+    "header": "Topics",
+    "content": " CICD GitOps DevOps Version Control DevSecOps Cloud Native AI for Coding Agentic AI"
+  },
+  {
+    "header": "Solutions",
+    "content": " Application Security Testing Automated software delivery Agile development SCM CICD Value stream management GitOps Enterprise Small business Public sector Education Financial services"
+  },
+  {
+    "header": "Resources",
+    "content": " Install Quick start guides Learn Product documentation Blog What's new Customer success stories Remote GitLab Services Contribute Community Forum Events Partners"
+  },
+  {
+    "header": "Company",
+    "content": " About Jobs Leadership Handbook Investor relations Sustainability Diversity, inclusion and belonging (DIB) Trust Center Newsletter Press Modern Slavery Transparency Statement     Git is a trademark of Software Freedom Conservancy and our use of 'GitLab' is under license View page sourceEdit this pagePlease contribute Â© 2026 GitLab Inc."
+  }
+]
